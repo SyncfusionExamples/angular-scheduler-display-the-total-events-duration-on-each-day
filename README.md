@@ -1,27 +1,28 @@
-# Quickstart
+# EJ2 Angular
+This sample demonstrate the way to display the total events duration on each day.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
+## How to run this application?
 
-## Development server
+To run this application, you need to first clone the `How-to-display-the-total-events-duration-on-each-day` repository and then navigate to its appropriate path where it has been located in your system.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+To do so, open the command prompt and run the below commands one after the other.
 
-## Code scaffolding
+```
+git clone https://github.com/SyncfusionExamples/How-to-display-the-total-events-duration-on-each-day
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installing
 
-## Build
+Once done with downloading, next you need to install the necessary packages required to run this application locally. The `npm install` command will install all the needed JS2 packages into your current project and to do so, run the below command.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+```
+npm install
+```
 
-## Running unit tests
+## Running
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Finally, you can now use the below `ng` script to run the web application.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```
+ng serve
+```
