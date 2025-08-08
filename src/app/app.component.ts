@@ -51,7 +51,7 @@ export class AppComponent {
     return '<div id=' + id + '></div>'
   }
 
-  eventRendered() {
+  eventRendered(args?: any) {
     let totalEvents = this.scheduleObj.eventsData;
     var dm = new DataManager({ json: totalEvents });
     let resources = this.scheduleObj.resources[0].dataSource;
@@ -81,7 +81,7 @@ export class AppComponent {
     });
   }
 
-  dataBinding(args) {
+  dataBinding(args: any) {
     if (args.result.length == 0) {
       let resources = this.scheduleObj.resources[0].dataSource;
       var dates = this.scheduleObj.getCurrentViewDates();
