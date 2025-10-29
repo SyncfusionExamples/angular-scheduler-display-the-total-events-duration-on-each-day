@@ -18,6 +18,7 @@ Once done with downloading, next you need to install the necessary packages requ
 ```
 npm install
 ```
+Make sure you have Angular CLI installed globally to avoid any compatibility issues during build and serve.
 
 ## Running
 
@@ -26,3 +27,4 @@ Finally, you can now use the below `ng` script to run the web application.
 ```
 ng serve
 ```
+This will compile the project and launch it in your default browser at localhost port.
