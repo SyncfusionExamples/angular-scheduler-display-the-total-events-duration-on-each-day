@@ -1,11 +1,30 @@
+
 # EJ2 Angular
-This sample demonstrate the way to display the total events duration on each day.
+
+This EJ2 Angular sample demonstrates displaying total events duration per day using the Syncfusion Scheduler in an Angular app.
+
+## Project Overview
+
+Shows how to calculate and render daily event durations in an EJ2 Scheduler view using Angular.
+
+## Features
+
+- Calculate and display total event duration per day
+- Built with Angular and Syncfusion EJ2 Scheduler
+
+## Prerequisites
+
+- Node.js and npm
+- Angular CLI (for `ng serve`)
+
+## Documentation
+
+- Syncfusion Angular Introduction: https://ej2.syncfusion.com/angular/documentation/introduction
+- Syncfusion Angular Schedule Getting Started: https://ej2.syncfusion.com/angular/documentation/schedule/getting-started
 
 ## How to run this application?
 
-To run this application, you need to first clone the `How-to-display-the-total-events-duration-on-each-day` repository and then navigate to its appropriate path where it has been located in your system.
-
-To do so, open the command prompt and run the below commands one after the other.
+To run this application, first clone the `How-to-display-the-total-events-duration-on-each-day` repository and navigate to its folder on your system. Then run the commands below.
 
 ```
 git clone https://github.com/SyncfusionExamples/How-to-display-the-total-events-duration-on-each-day
@@ -13,7 +32,7 @@ git clone https://github.com/SyncfusionExamples/How-to-display-the-total-events-
 
 ## Installing
 
-Once done with downloading, next you need to install the necessary packages required to run this application locally. The `npm install` command will install all the needed JS2 packages into your current project and to do so, run the below command.
+After cloning, install dependencies with:
 
 ```
 npm install
@@ -21,8 +40,17 @@ npm install
 
 ## Running
 
-Finally, you can now use the below `ng` script to run the web application.
+Start the development server with the Angular CLI:
 
 ```
 ng serve
 ```
+
+## Contributing
+
+Contributions and improvements are welcome as issues or pull requests. Keep changes focused on documentation or small, well-documented sample improvements.
+
+## License
+
+This sample follows the licensing terms of the original repository. Check the project root for any license file or notices.
+
