@@ -1,11 +1,6 @@
+# How to Display Total Event Duration per Day in Angular Scheduler
 
-# EJ2 Angular
-
-This EJ2 Angular sample demonstrates displaying total events duration per day using the Syncfusion Scheduler in an Angular app.
-
-## Project Overview
-
-Shows how to calculate and render daily event durations in an EJ2 Scheduler view using Angular.
+This EJ2 Angular sample demonstrates how to calculate and display total event duration per day using [Angular Scheduler](https://www.syncfusion.com/angular-components/angular-scheduler). It provides a practical example of aggregating and rendering daily event durations within the scheduler view, helping developers implement efficient scheduling insights in Angular applications.
 
 ## Features
 
@@ -16,11 +11,6 @@ Shows how to calculate and render daily event durations in an EJ2 Scheduler view
 
 - Node.js and npm
 - Angular CLI (for `ng serve`)
-
-## Documentation
-
-- Syncfusion Angular Introduction: https://ej2.syncfusion.com/angular/documentation/introduction
-- Syncfusion Angular Schedule Getting Started: https://ej2.syncfusion.com/angular/documentation/schedule/getting-started
 
 ## How to run this application?
 
@@ -45,6 +35,11 @@ Start the development server with the Angular CLI:
 ```
 ng serve
 ```
+
+## Documentation
+
+- Syncfusion Angular Introduction: https://ej2.syncfusion.com/angular/documentation/introduction
+- Syncfusion Angular Schedule Getting Started: https://ej2.syncfusion.com/angular/documentation/schedule/getting-started
 
 ## Contributing
 
